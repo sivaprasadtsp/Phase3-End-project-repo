@@ -1,0 +1,18 @@
+{
+    "id": 908,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "hen",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available_QA"
+  }
