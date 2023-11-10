@@ -12,7 +12,7 @@ public class Script007HamcrestValidateMethods {
 		@Test(priority='1')
 		public void ValidateRepsonseBody()
 		{
-			String PMapikey = "PMAK-65447d96a7ac350031f650e4-79966e3dabc58b3fa5d749d031839d4ad7";
+			String PMapikey = "PMAK-65447d96a7ac350031f650e4-79966e3dabc58b3d031839d4ad7";
 			given().baseUri("https://api.postman.com")
 			.basePath("/workspaces")
 			.header("X-API-Key", PMapikey)
@@ -46,7 +46,7 @@ public class Script007HamcrestValidateMethods {
 		@Test(priority='3')
 		public void ValidateRepsonseBody_hasitems()
 		{
-			String PMapikey = "PMAK-65447d96a7ac350031f650e4-79966e3dabc58b3fa5d749d031839d4ad7";
+			String PMapikey = "PMAK-65447d96a7ac350031f650e4-79abc58b3fa5d749d031839d4ad7";
 			given().baseUri("https://api.postman.com")
 			.basePath("/workspaces")
 			.header("X-API-Key", PMapikey)
