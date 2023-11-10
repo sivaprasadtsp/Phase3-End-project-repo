@@ -18,7 +18,7 @@ Response res;
 		
 		given().baseUri("https://api.github.com")
 		.basePath("/user/repos")
-		.header("Authorization","Bearer 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");
+		.header("Authorization","Bearer ghp_YvHQwONhukv6s1LX3vvoPvzO93jBt4p");
 		
 	   
 	}
@@ -28,7 +28,7 @@ Response res;
 	 
 	res=	given().baseUri("https://api.github.com")
 		.basePath("/user/repos")
-		.header("Authorization","Bearer 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")
+		.header("Authorization","Bearer ghp_YvHQwONhukv6smebHa1LX3vv4p")
 	.when().get();
 		
 		
