@@ -14,7 +14,7 @@ public class Script008GITHUBBearerToken {
 		
 	Response res=	given().baseUri("https://api.github.com")
 		.basePath("/user/repos")
-		.header("Authorization","Bearer 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")
+		.header("Authorization","Bearer ghp_YvHQwONhukv6smLX3vvoPvzO93jBt4p")
 		.when().get()
 		.then().statusCode(200)
 		.extract().response();
@@ -32,7 +32,7 @@ public class Script008GITHUBBearerToken {
 		
 	Response res=	given().baseUri("https://api.github.com")
 		.basePath("/repos/sivaprasadtsp/Angularpraticeproject")
-		.header("Authorization","Bearer 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")
+		.header("Authorization","Bearer ghp_YvHQwONhukv6smeb3vvoPvzO93jBt4p")
 		.when().get()
 		.then().statusCode(200)
 		.extract().response();
